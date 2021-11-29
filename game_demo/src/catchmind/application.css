@@ -1,0 +1,28 @@
+
+#bgimg{
+	-fx-background-image:url(img/gamebackground.png);
+}
+#btnClose{
+	-fx-background-image:url(img/exitBtnIcon.png);
+}
+#btnClear{
+	-fx-background-image:url(img/clearBtnIcon.png); 
+}
+#btnBlack{
+	-fx-background-image:url(img/blackBtnIcon.png); 
+}
+#btnRed{
+	-fx-background-image:url(img/redBtnIcon.png);
+}
+#btnBlue{
+	-fx-background-image:url(img/blueBtnIcon.png);
+}
+#btnGreen{
+	-fx-background-image:url(img/greenBtnIcon.png);
+}
+#btnyellow{
+	-fx-background-image:url(img/yellowBtnIcon.png);
+}
+#btnEraser{
+	-fx-background-image:url(img/eraserBtnIcon.png);
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="bgimg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1000.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="catchmind.MainController">
+   <children>
+      <Label layoutX="889.0" layoutY="107.0" text="접속 인원" />
+      <ListView layoutX="804.0" layoutY="126.0" prefHeight="108.0" prefWidth="200.0" />
+      <Label layoutX="882.0" layoutY="249.0" text="채팅방" />
+      <TextArea layoutX="800.0" layoutY="272.0" prefHeight="324.0" prefWidth="200.0" />
+      <Canvas fx:id="canvas" height="344.0" layoutX="254.0" layoutY="152.0" width="518.0" />
+      <Button id="btnBlack" layoutX="263.0" layoutY="533.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="42.0" text="Button" />
+      <Button id="btnRed" layoutX="319.0" layoutY="533.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="42.0" />
+      <Button id="btnGreen" layoutX="370.0" layoutY="534.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="42.0" />
+      <Button id="btnBlue" layoutX="421.0" layoutY="533.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="42.0" />
+      <Button id="btnyellow" layoutX="471.0" layoutY="534.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="42.0" />
+      <Button id="btnClose" fx:id="btnClose" layoutX="867.0" layoutY="8.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" />
+      <Button id="btnClear" fx:id="btnClear" layoutX="649.0" layoutY="556.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" />
+      <Slider fx:id="slider" layoutX="591.0" layoutY="527.0" prefHeight="14.0" prefWidth="161.0" />
+      <Button id="btnEraser" fx:id="btnEraser" layoutX="591.0" layoutY="561.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="42.0" />
+      <ColorPicker fx:id="pick" layoutX="492.0" layoutY="609.0" />
+      <Button fx:id="btnStart" layoutX="868.0" layoutY="632.0" mnemonicParsing="false" text="게임시작" />
+   </children>
+</AnchorPane>
