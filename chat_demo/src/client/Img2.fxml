@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="200.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Img2Controller">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <ImageView fx:id="seView" fitHeight="150.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: red;" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="50.0" prefWidth="250.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnNext" layoutX="181.0" layoutY="14.0" mnemonicParsing="false" text="Next" />
+                  <Button fx:id="btnPre" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Pre" />
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</StackPane>
